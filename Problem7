@@ -1,0 +1,27 @@
+Given:
+
+var myQuote="He who laughs, lasts.";
+
+Give the value of each of the following expressions:
+a. myQuote.toUpperCase()
+    "HE WHO LAUGHS, LASTS."
+b. myQuote.indexOf("a")
+    8
+c. myQuote.indexOf("@", 1)
+    -1
+d. myQuote.indexOf("who")
+    3
+e. myQuote.indexOf("a", 10)
+    16
+f. myQuote.lastIndexOf("a")
+    16
+g. myQuote.lastIndexOf("a", 7)
+    -1
+h. myQuote.lastIndexOf("a", 10)
+    8
+i. myQuote.charAt(7)
+    l
+j. myQuote.charAt(myQuote.length)
+    undefined, probably.
+k. myQuote.charAt(myQuote.length - 3)
+    t
